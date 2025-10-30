@@ -75,7 +75,7 @@
   
   >>Styled with custom CSS for a modern, clean layout.
 
->**Algorithm:**
+**Algorithm:**
 
   >>Start the Application.
   
@@ -123,7 +123,7 @@
 
   >>JWT is removed from localStorage → Redirects to login page.
 
->**Technology used:**
+**Technology used:**
 
   >>**Frontend**	              React.js, Axios, HTML, CSS
   
@@ -135,7 +135,7 @@
   
   >>**Password Encryption**   	bcrypt.js
 
->**Key Features:**
+**Key Features:**
 
   >>Secure authentication using JWT.
   
@@ -149,7 +149,7 @@
   
   >>Simple, user-friendly UI with dynamic rendering.
 
->**Conclusion:**
+**Conclusion:**
 
   >>This Attendance Management System successfully demonstrates a complete full-stack application built using the MERN stack. It provides secure authentication, role-based access control, and efficient attendance tracking, ensuring data integrity through audit logging and modern user interface design.
 
