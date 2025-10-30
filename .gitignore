@@ -1,0 +1,7 @@
+# Node.js
+node_modules/
+
+# Build and environment files
+.env
+dist/
+build/

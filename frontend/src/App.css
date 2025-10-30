@@ -1,0 +1,150 @@
+/* General page styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f6fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  background-color: #2f3640;
+  padding: 12px 20px;
+
+  
+  color: white;
+  box-shadow: 0 2px 80px rgba(224, 12, 12, 0.214);
+}
+
+.navbar button {
+  background-color: #40739e;
+  color: white;
+  
+  
+  border: none;
+
+  border-radius: 6px;
+  
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.navbar button:hover {
+  background-color: #2f3640;
+}
+
+/* Container styling */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  color: #2f3640;
+  margin-bottom: 24px;
+}
+
+h3 {
+  color: #40739e;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #40739e;
+  padding-bottom: 4px;
+}
+
+/* Inputs & Selects */
+input, select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #dcdde1;
+  font-size: 16px;
+  outline: none;
+}
+
+input:focus, select:focus {
+  border-color: #40739e;
+}
+
+/* Buttons */
+button {
+  background-color: #40739e;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  margin-top: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #2f3640;
+}
+
+/* Lists */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #f1f2f6;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Attendance item styling */
+.attendance-info {
+  flex: 1 1 250px;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.attendance-actions {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+
+.attendance-actions button {
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+/* Profile section */
+.profile {
+  background-color: #dcdde1;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 16px 0;
+}
+
+/* Month input for summary */
+input[type="month"] {
+  width: auto;
+  display: inline-block;
+  margin-left: 12px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #dcdde1;
+}
